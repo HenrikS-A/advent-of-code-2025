@@ -1,6 +1,7 @@
 # After some research, I found that by adding just functools.lru_cache
 # was enough to make the recursive function efficient and 
 # return the correct answer.
+# https://en.wikipedia.org/wiki/Memoization
 # 
 # This would probably also make my recursive function from 
 # day 7 part 2 run efficiently as well.
